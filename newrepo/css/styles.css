@@ -1,0 +1,343 @@
+@media (max-width: 900px) {
+  div h1 {
+    background-color: #054a91;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+/*nav{
+ position: fixed;
+width: 100%;
+
+ .drop-down{
+    position: relative;
+height: 40px;
+background-color: blueviolet;
+display: flex;
+justify-content: end;   
+    a{
+        padding: 10px;
+    }
+     ul{
+        position: absolute;
+     }
+}
+h1{
+    font-family: $f;
+    font-size: $fsize;
+    text-align: center;
+}
+
+}*/
+nav {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  text-align: center;
+  width: 100%;
+}
+header .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+header .container h1 {
+  font-size: 2.9em;
+  font-family: "Lato", sans-serif;
+}
+header .container h3 {
+  text-align: center;
+  font-size: 1.5em;
+  font-family: "Gloria Hallelujah", cursive;
+}
+header .container button {
+  margin: 2em auto;
+  height: 13%;
+  width: 35%;
+  padding: 3.5% 2%;
+  font-size: 0, 6em;
+  background-color: #698996;
+  border-radius: 15px;
+  color: #DADDD8;
+  border: none;
+}
+
+.first {
+  width: 100%;
+}
+.first .container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10%;
+  text-align: center;
+}
+.first .container1 h2 {
+  font-size: 2.3em;
+  margin-top: 9%;
+}
+.first .container1 p {
+  font-size: larger;
+  margin: 0.8%;
+}
+.first .container1 button {
+  margin: 1% auto 1% auto;
+  height: 3em;
+  width: 12em;
+  padding: 1.2% 1%;
+  font-size: 20px;
+  background-color: #2B2C28;
+  border-radius: 15px;
+  text-align: center;
+  color: #DADDD8;
+  border: none;
+}
+
+.second {
+  background-color: #3E7CB1;
+  width: 100%;
+}
+.second .container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.second .container2 h3 {
+  font-size: 1.2em;
+  margin: 3em auto 0.4em auto;
+  color: #A17C6B;
+  text-align: center;
+}
+.second .container2 h2 {
+  color: #DBE4EE;
+  font-size: 3em;
+  font-family: "DynaPuff", cursive;
+}
+.second .forcards {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 7%;
+}
+.second .forcards div {
+  margin: 2em;
+  text-align: center;
+}
+.second .forcards div .icon {
+  background-color: white;
+  border-radius: 50%;
+  width: 4em;
+  height: 4em;
+  text-align: center;
+  display: inline-block;
+  margin: auto;
+}
+.second .forcards div .icon i {
+  color: #3E7CB1;
+  font-size: 2.5em;
+  vertical-align: middle;
+  margin: auto 0;
+  padding-top: 0.3em;
+}
+.second .forcards div h4 {
+  font-size: 1.3em;
+  margin: 0.5em 0;
+  text-align: center;
+  color: white;
+  font-family: "Prompt", sans-serif;
+}
+.second .forcards div p {
+  font-size: medium;
+  color: white;
+}
+
+.third {
+  background-image: url(../portfolio-4.jpg);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.third .container3 {
+  width: 40%;
+}
+.third .container3 h2 {
+  font-size: 2.9em;
+  margin-bottom: 1em;
+  font-family: "Prompt", sans-serif;
+}
+.third .container3 button {
+  margin: auto;
+  height: 3em;
+  width: 12em;
+  padding: 2.5% 1%;
+  font-size: 1em;
+  background-color: #698996;
+  border-radius: 9px;
+  text-align: center;
+  color: #DADDD8;
+  border: none;
+}
+
+.forth {
+  background-color: #4F517D;
+  width: 100%;
+  background-color: white;
+}
+.forth .container4 {
+  margin-bottom: 8%;
+}
+.forth .container4 .c4h3 {
+  text-align: center;
+  padding: 3em;
+}
+.forth .container4 .c4h3 h3 {
+  font-size: 1.5em;
+  font-family: "Prompt", sans-serif;
+  color: #A17C6B;
+}
+.forth .container4 .c4h3 h2 {
+  font-size: 2.3em;
+  font-family: "Prompt", sans-serif;
+  font-weight: 800;
+}
+.forth .container4 .pics {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.forth .container4 .pics .cards {
+  width: 40%;
+  height: 40%;
+}
+.forth .container4 .pics img {
+  max-width: 100%;
+  vertical-align: middle;
+  transition: 1s ease;
+}
+.forth .container4 .pics img:hover {
+  transform: scale(0.8);
+  transition: 1s ease;
+  opacity: 10%;
+}
+
+.fifth {
+  background-color: #3E7CB1;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.fifth .container5 {
+  width: 60%;
+}
+.fifth .container5 h2 {
+  color: white;
+  font-size: 1.5em;
+  font-family: "Prompt", sans-serif;
+  margin-top: 1.2em;
+}
+.fifth .container5 button:first-of-type {
+  margin: 1em;
+  height: 8%;
+  width: 18%;
+  padding: 3.5% 2%;
+  font-size: 0, 6em;
+  background-color: #698996;
+  border-radius: 10px;
+  color: black;
+  background-color: white;
+  border: none;
+}
+.fifth .container5 button {
+  margin: 1em;
+  height: 8%;
+  width: 18%;
+  padding: 3.5% 2%;
+  font-size: 0, 6em;
+  background-color: #698996;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+  border: none;
+}
+
+.google-map {
+  padding-bottom: 50%;
+  position: relative;
+}
+
+.google-map iframe {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+
+footer {
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  margin-bottom: 3em;
+}
+footer .container6 {
+  width: 60%;
+  margin: 0.7em auto;
+}
+footer .container6 ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .container6 ul li {
+  list-style: none;
+  margin: 2em 0.4em;
+}
+footer .container6 ul li a {
+  background-color: #3E7CB1;
+  border-radius: 50%;
+  width: 3em;
+  height: 3em;
+  text-align: center;
+  display: inline-block;
+  margin: auto;
+}
+footer .container6 ul li a i {
+  color: white;
+  font-size: 1.5em;
+  vertical-align: middle;
+  padding-top: 0.6em;
+}/*# sourceMappingURL=styles.css.map */

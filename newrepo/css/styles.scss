@@ -1,0 +1,360 @@
+$f: "Lato", sans-serif;
+$fsize: 2.9em;
+$fsize2: 1.5em;
+$fsizeh2: 2.3em;
+$fsizenormal: 2em;
+$color1: #054a91;
+$color2: #3E7CB1;
+$color3:#81A4CD;
+$color4:#DBE4EE;
+$color5:#F17300;
+$color6:#2B2C28;
+$color7:#4F517D;
+$color8:#DADDD8;
+$color9:#698996;
+$color10:#A17C6B;
+
+@media (max-width: 900px){
+  div h1{
+    background-color: $color1;
+
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+/*nav{
+ position: fixed;
+width: 100%;
+
+ .drop-down{
+    position: relative;
+height: 40px;
+background-color: blueviolet;
+display: flex;
+justify-content: end;   
+    a{
+        padding: 10px;
+    }
+     ul{
+        position: absolute;
+     }
+}
+h1{
+    font-family: $f;
+    font-size: $fsize;
+    text-align: center;
+}
+
+}*/
+nav {
+    display: none;
+  }
+a{
+  text-decoration: none;
+}
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;  
+  text-align: center;
+  width: 100%;
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h1 {
+      font-size: $fsize;
+      font-family: $f;
+    }
+    h3 {
+      text-align: center;
+      font-size: $fsize2;
+      font-family:'Gloria Hallelujah', cursive;
+    }
+    button {
+      
+      margin: 2em auto;
+      height: 13%;
+      width: 35%;
+      padding: 3.5% 2%;
+      font-size: 0,6em;
+      background-color: $color9;
+      border-radius: 15px;
+      color: $color8; border: none;
+    }
+  }
+  }
+  .first{
+width: 100%;
+.container1{
+    display: flex;
+   flex-direction: column;
+  align-items: center;
+  margin-bottom: 10%;
+  text-align: center;
+h2{
+font-size: $fsizeh2;
+margin-top: 9%;
+}
+p{
+    font-size: larger;   
+    margin: 0.8%;
+}
+button {
+    
+    margin: 1% auto 1% auto;
+    height: 3em;
+    width: 12em;
+    padding: 1.2% 1%;
+    font-size: 20px;
+    background-color: $color6;
+    border-radius: 15px;
+    text-align: center;
+    color: $color8; border: none;
+  }
+}
+  }
+  .second{
+    background-color: $color2;
+    width: 100%;
+    .container2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        h3{
+            font-size: 1.2em;
+            margin: 3em auto 0.4em auto;
+            color:$color10;
+            text-align: center;
+        }
+        h2{
+          color: $color4;
+          font-size: 3em;
+          font-family: 'DynaPuff', cursive;
+        }
+       
+    }
+
+    .forcards{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-bottom: 7%;
+div{
+margin: 2em;
+  text-align: center;
+  .icon{
+    background-color: white;
+    border-radius: 50%;
+width: 4em;
+height: 4em;
+text-align: center;
+display: inline-block;
+margin: auto;
+  
+        i{
+          color: $color2;
+          font-size: 2.5em;
+         vertical-align: middle;
+         margin: auto 0;
+         padding-top: 0.3em;
+          
+        }
+      }
+   h4{
+    font-size: 1.3em;
+    margin: 0.5em 0;
+    text-align: center;
+    color: white;
+    font-family: 'Prompt', sans-serif;
+   }
+   p{
+    font-size: medium;
+    color: white;
+   }
+}
+    }
+  }
+  .third{
+    background-image: url(../portfolio-4.jpg);
+    width: 100%;
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;  
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    .container3{
+     width: 40%;
+h2{
+  font-size: $fsize;
+  margin-bottom: 1em;
+  font-family: 'Prompt', sans-serif;
+
+}
+button {
+ 
+  margin: auto;
+  height: 3em;
+  width: 12em;
+  padding: 2.5% 1%;
+  font-size: 1em;
+  background-color: $color9;
+  border-radius: 9px;
+  text-align: center;
+  color: $color8;
+  border: none;
+}
+    }
+  }
+
+  .forth{
+    background-color: $color7;
+    width: 100%;
+    background-color: white;
+.container4{
+  margin-bottom: 8%;
+  .c4h3{
+    text-align: center;
+padding: 3em;
+h3{
+  font-size: $fsize2;
+ font-family: 'Prompt', sans-serif;
+ color: $color10;
+}
+h2{
+  font-size: $fsizeh2;
+ font-family: 'Prompt', sans-serif;
+ font-weight: 800;
+}
+  }
+
+.pics{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+.cards{
+  width: 40%;
+  height: 40%;
+}
+img{
+  max-width: 100%;
+  vertical-align: middle;
+  transition: 1s ease;
+
+  &:hover{
+-webkit-transform: scale(0.8);
+-ms-transform: scale(0.8);
+transform: scale(0.8);
+transition: 1s ease;
+opacity: 10%;
+  }
+}}}}
+  .fifth{
+    background-color: $color2;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    .container5{
+      width: 60%;
+     h2{
+      color: white;
+      font-size: $fsize2;
+      font-family: 'Prompt', sans-serif;
+      margin-top: 1.2em;
+     }
+     button:first-of-type {
+      margin: 1em;
+      height: 8%;
+      width: 18%;
+      padding: 3.5% 2%;
+      font-size: 0,6em;
+      background-color: $color9;
+      border-radius: 10px;
+      color: black;
+      background-color: white;
+      border: none;
+  
+    }
+    button{
+      margin: 1em;
+      height: 8%;
+      width: 18%;
+      padding: 3.5% 2%;
+      font-size: 0,6em;
+      background-color: $color9;
+      border-radius: 10px;
+      color: white;
+      background-color: black;
+      border: none;
+    }
+    }
+  }
+  .google-map {
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+ 
+footer{
+
+width: 100%;
+background-color: white;
+text-align: center;
+margin-bottom: 3em;
+.container6{
+  width: 60%;
+  margin: 0.7em auto;
+ ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  li{
+    list-style: none;
+    margin: 2em 0.4em;
+    a{
+      background-color: $color2;
+      border-radius: 50%;
+  width: 3em;
+  height: 3em;
+  text-align: center;
+  display: inline-block;
+  margin: auto;
+    i{
+      color: white;
+          font-size: 1.5em;
+         vertical-align: middle;
+         padding-top: 0.6em;
+    }}
+  }}
+}
+}
